@@ -1,0 +1,6 @@
+<Tabs tabs="{{tabs}}" bindtabItemChange="handletabItemChange">
+    <block wx:if="{{tabs[0].isActive}}">1</block>
+    <block wx:elif="{{tabs[1].isActive}}">2</block>
+    <block wx:elif="{{tabs[2].isActive}}">3</block>
+    <block wx:elif="{{tabs[3].isActive}}">4</block>
+</Tabs>
